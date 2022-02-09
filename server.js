@@ -9,4 +9,14 @@ board.on("ready", () => {
 		else if (msg.content === "led off") led.off()
 	});
 });
+//this part is for mic state led
+//client.on('voiceStateUpdate', (oldState, newState) => {
+//  if (oldState.member.user.id !== "youridhere") return // make sure its only checking for your microhpone
+//  if (newState.mute) { // check if mic is muted
+//    setLightColor("red") //if true make light red
+//  } else {
+//    setLightColor("green") //if false make light green
+//  }
+//})
+
 client.login('YOUR BOT TOKEN HERE'); // https://discordapp.com/developers/applications/
