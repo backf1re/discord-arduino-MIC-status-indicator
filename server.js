@@ -3,7 +3,7 @@ const five = require('johnny-five');
 const client = new Discord.Client();
 const board = new five.Board();
 board.on("ready", () => {
-	const led = new five.Led(13);
+	const led = new five.Led(2);
 	client.on('voiceStateUpdate', (oldState, newState) => { 
 		if (oldState.member.user.id !== "youridhere") return // make sure its only checking for your microhpone
 		if (newState.mute) { // check if mic is muted
