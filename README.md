@@ -1,12 +1,14 @@
-# Control an arduino with discord bot - the easiest (Node.js)
-Simplest way to control arduino with discord bot.
+# Control your MIC mute state in discord with arduino operated led (Node.js)
+This is the way to make a physical indicator of you micrphone state in discord app. Much more comfortable than overlay indicator.
 
-## How to run:
+## !!!TBD!!! How to run:
 
 1. Download project or `git clone`
-2. Insert your bot token at 12. line of `server.js` file
+2. Insert your bot token and your user id in `MIC.js` file
 3. run `npm install`
 4. Connect your arduino with USB
-5. Start `server.js` with node
+5. !!!TBD!!!
+?. Start `MIC.js` with node
 
-Write into discord channel visible to bot commands `led off` to turn off built in led light or `led on` to turn it on.
+
+THIS PROJECT DEVELOPED AS FORK OF DedaDev/discord-arduino-simplest
